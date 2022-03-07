@@ -130,3 +130,75 @@ body {
   font-style: normal;
   color: #13d68f;
 }
+.miniText {
+  position: absolute;
+  top: 605px;
+  width: 116px;
+  height: 21px;
+  left: 127px;
+}
+.miniText > p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #1e2333;
+}
+
+.button {
+  position: relative;
+  border-radius: 45.24px;
+  background-color: #13d68f;
+  height: 63px;
+  width: 334.6190490722656px;
+  left: 20px;
+  top: 634px;
+  border: none;
+  border-radius: 45.238094329833984px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.button > h1 {
+  top: 9px;
+  position: absolute;
+  font-family: "Fira Sans";
+  height: 24px;
+  width: 320.8821105957031px;
+  left: calc(50% - 320.88px / 2 + 1.36px);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.180882px;
+  color: #ffffff;
+}
+.button > p {
+  position: absolute;
+  width: 320.88px;
+  height: 24px;
+  left: calc(50% - 320.88px / 2 + 1.36px);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4.6px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.footer {
+  position: absolute;
+  width: 340px;
+  height: 63px;
+  left: calc(50% - 340px / 2 + 3.5px);
+  bottom: 30px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  color: #414141;
+}
